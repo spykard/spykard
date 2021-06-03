@@ -2,7 +2,7 @@
 
 4+ years of experience specializing in backend development, data science, and computer hacking. Linux enthusiast who loves programming on his free time and enjoys customizing all of the development environment. Interested in devising a better problem-solving method for challenging tasks, and learning new technologies and tools if the need arises.
 
-![Spykard's GitHub stats](https://github-readme-stats.vercel.app/api?username=spykard&hide=prs,issues,contribs&count_private=true&show_icons=true)
+![Spykard's GitHub stats](https://github-readme-stats.vercel.app/api?username=spykard&hide=issues,contribs&count_private=true&show_icons=true&include_all_commits=true)
 
 <!--
 **spykard/spykard** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
