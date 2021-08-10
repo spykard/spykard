@@ -26,6 +26,7 @@ jobs:
           plugin_lines: yes
           plugins_errors_fatal: no
           output_action: commit
+          committer_branch: metrics_output
           delay: 10          
 
       # ======================================================================================
@@ -48,6 +49,7 @@ jobs:
           plugin_achievements_limit: 20
           plugins_errors_fatal: no
           output_action: commit
+          committer_branch: metrics_output
           delay: 10
 
       # ======================================================================================
@@ -64,6 +66,7 @@ jobs:
           plugin_followup: yes
           plugins_errors_fatal: no
           output_action: commit
+          committer_branch: metrics_output
           delay: 10
           
       # Display ratio of open/closed/merged issues and pull requests created by user
@@ -78,6 +81,7 @@ jobs:
           plugin_followup_sections: user
           plugins_errors_fatal: no
           output_action: commit
+          committer_branch: metrics_output
           delay: 10
 
       # ======================================================================================
@@ -97,6 +101,7 @@ jobs:
           plugins_errors_fatal: no
           config_timezone: Europe/Athens
           output_action: commit
+          committer_branch: metrics_output
           delay: 10          
 
       # ======================================================================================
@@ -114,6 +119,7 @@ jobs:
           plugin_introduction: yes
           plugins_errors_fatal: no
           output_action: commit
+          committer_branch: metrics_output
           delay: 10       
 
       # ======================================================================================
@@ -131,6 +137,7 @@ jobs:
           plugin_isocalendar_duration: full-year
           plugins_errors_fatal: no
           output_action: commit
+          committer_branch: metrics_output
           delay: 10
 
       # ======================================================================================
@@ -151,6 +158,7 @@ jobs:
           plugin_languages_indepth: yes
           plugins_errors_fatal: no
           output_action: commit
+          committer_branch: metrics_output
           delay: 10
 
       # ======================================================================================
@@ -167,6 +175,7 @@ jobs:
           plugin_lines: yes
           plugins_errors_fatal: no
           output_action: commit
+          committer_branch: metrics_output
           delay: 10      
 
       # ======================================================================================
@@ -184,6 +193,7 @@ jobs:
           plugin_notable_repositories: yes
           plugins_errors_fatal: no
           output_action: commit
+          committer_branch: metrics_output
           delay: 10
 
       # ======================================================================================
@@ -200,6 +210,7 @@ jobs:
           plugin_people: yes
           plugins_errors_fatal: no
           output_action: commit
+          committer_branch: metrics_output
           delay: 10 
 
       # ======================================================================================
@@ -217,6 +228,7 @@ jobs:
           plugin_traffic: yes
           plugins_errors_fatal: no
           output_action: commit
+          committer_branch: metrics_output
           delay: 10      
 
       # Illustrate header hidden features with debug flags
@@ -232,4 +244,5 @@ jobs:
           base: header
           debug_flags: --cakeday --hireable --halloween
           output_action: commit
+          committer_branch: metrics_output
           delay: 10                              
