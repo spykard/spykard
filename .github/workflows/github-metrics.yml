@@ -10,7 +10,226 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # See action.yml for all options
-      - uses: lowlighter/metrics@latest
+
+      # ======================================================================================
+      # 🖼️ TEMPLATES
+      # ======================================================================================
+
+      # Classic template example
+      - name: 📗 Classic template
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
         with:
-          # Your GitHub token
+          filename: metrics.classic.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          base: header, repositories
+          plugin_lines: yes
+          plugins_errors_fatal: no
+          output_action: commit
+          delay: 10          
+
+      # ======================================================================================
+      # 🧩 PLUGINS
+      # ======================================================================================
+
+      # ======================================================================================
+      # 🏆 Achievements
+
+      # Achievements
+      - name: 🏆 Achievements
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.achievements.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_only: ""
+          plugin_achievements_limit: 20
+          plugins_errors_fatal: no
+          output_action: commit
+          delay: 10
+
+      # ======================================================================================
+      # 🎟️ Follow-up of issues and pull requests
+
+      # Display ratio of open/closed/merged issues and pull requests on repositories
+      - name: 🎟️ Follow-up plugin
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.followup.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_followup: yes
+          plugins_errors_fatal: no
+          output_action: commit
+          delay: 10
+          
+      # Display ratio of open/closed/merged issues and pull requests created by user
+      - name: 🎟️ Follow-up plugin (user)
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.followup.user.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_followup: yes
+          plugin_followup_sections: user
+          plugins_errors_fatal: no
+          output_action: commit
+          delay: 10
+
+      # ======================================================================================
+      # 💡 Coding habits
+
+      # Display coding habits and recent activity (setup timezone for accurate metrics)
+      - name: 💡 Habits plugin
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.habits.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugins_errors_fatal: no
+          config_timezone: Europe/Athens
+          output_action: commit
+          delay: 10          
+
+      # ======================================================================================
+      # 🙋 Introduction
+
+      # Display introduction (user)
+      - name: 🙋 Introduction plugin
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.introduction.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: spykard
+          base: header
+          plugin_introduction: yes
+          plugins_errors_fatal: no
+          output_action: commit
+          delay: 10       
+
+      # ======================================================================================
+      # 📅 Isometric commit calendar
+
+      # Display isometric calendar (365 days)
+      - name: 📅 Isocalendar plugin (full year)
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.isocalendar.fullyear.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugins_errors_fatal: no
+          output_action: commit
+          delay: 10
+
+      # ======================================================================================
+      # 🈷️ Most used languages
+
+      # 🈷️ Display most used languages (with some unwanted languages ignored, with details)
+      - name: 🈷️ Languages plugin (detailed)
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.languages.details.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_languages: yes
+          #plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 5
+          plugin_languages_indepth: yes
+          plugins_errors_fatal: no
+          output_action: commit
+          delay: 10
+
+      # ======================================================================================
+      # 👨‍💻 Lines of code changed
+
+      # Display number of line changed (this is part of base content "repositories" section, so you need to enable it)
+      - name: 👨‍💻 Lines plugin
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.lines.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: repositories
+          plugin_lines: yes
+          plugins_errors_fatal: no
+          output_action: commit
+          delay: 10      
+
+      # ======================================================================================
+      # 🎩 Notable contributions
+
+      # Display badges of organizations with at least one commit from user
+      - name: 🎩 Notable contributions
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.notable.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_notable: yes
+          plugin_notable_repositories: yes
+          plugins_errors_fatal: no
+          output_action: commit
+          delay: 10
+
+      # ======================================================================================
+      # 🧑‍🤝‍🧑 People plugin
+
+      # Display followers and followed users
+      - name: 🧑‍🤝‍🧑 People plugin
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.people.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_people: yes
+          plugins_errors_fatal: no
+          output_action: commit
+          delay: 10 
+
+      # ======================================================================================
+      # 🧮 Repositories traffic
+
+      # Display number of repositories views (this is part of base content "repositories" section, so you need to enable it)
+      # Note that a "repo" scope is required
+      - name: 🧮 Traffic plugin
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.plugin.traffic.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: repositories
+          plugin_traffic: yes
+          plugins_errors_fatal: no
+          output_action: commit
+          delay: 10      
+
+      # Illustrate header hidden features with debug flags
+      # "--cakeday" will act as if it's your account birthday
+      # "--hireable" will act as if "Available for hire" is enabled
+      # "--halloween" will act as if it was halloween, changing the colors of calendars
+      - name: 💬 Header (hidden features)
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@master
+        with:
+          filename: metrics.header.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: header
+          debug_flags: --cakeday --hireable --halloween
+          output_action: commit
+          delay: 10                              
