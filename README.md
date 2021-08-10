@@ -4,7 +4,11 @@ Software engineer with 7 years of programming experience, 2 of them professional
 
 <!-- ![Spykard's GitHub stats 1](https://github-readme-stats.vercel.app/api?username=spykard&hide=issues&count_private=true&show_icons=true&include_all_commits=true) -->
 
-![Spykard's GitHub stats 1](https://github.com/spykard/github-stats/blob/master/generated/overview.svg) ![Spykard's GitHub stats 2](https://github.com/spykard/github-stats/blob/master/generated/languages.svg)
+![Spykard's GitHub stats 1](https://github.com/spykard/spykard/blob/output/generated/overview.svg) ![Spykard's GitHub stats 2](https://github.com/spykard/spykard/blob/output/generated/languages.svg)
+
+![Spykard's GitHub stats 3](https://github.com/spykard/spykard/blob/main/github-metrics.svg)
+
+TODO
 
 <!--
 **spykard/spykard** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
