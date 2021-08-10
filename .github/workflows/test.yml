@@ -58,6 +58,6 @@ jobs:
           plugin_reactions_limit: 200
 
           plugin_wakatime: yes
-          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+          #plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           plugin_wakatime_days: 14
           plugin_wakatime_limit: 4
