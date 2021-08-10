@@ -4,7 +4,7 @@ Software engineer with 7 years of programming experience, 2 of them professional
 
 <!-- ![Spykard's GitHub stats 1](https://github-readme-stats.vercel.app/api?username=spykard&hide=issues&count_private=true&show_icons=true&include_all_commits=true) -->
 
-![Spykard's GitHub stats 1](https://github.com/spykard/spykard/blob/output/generated/overview.svg) ![Spykard's GitHub stats 2](https://github.com/spykard/spykard/blob/output/generated/languages.svg)
+![Spykard's GitHub stats 1](https://github.com/spykard/spykard/blob/stats_output/generated/overview.svg) ![Spykard's GitHub stats 2](https://github.com/spykard/spykard/blob/stats_output/generated/languages.svg)
 
 ![Spykard's GitHub stats 3](https://github.com/spykard/spykard/blob/main/github-metrics.svg)
 
@@ -23,4 +23,7 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+
+Here are some GitHub statistics examples:
+https://github.com/lowlighter/metrics
 -->
