@@ -18,7 +18,7 @@ jobs:
       # Classic template example
       - name: 📗 Classic template
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@master
+        uses: simonSlamka/metrics@master
         with:
           filename: metrics.classic.svg
           token: ${{ secrets.METRICS_TOKEN }}
