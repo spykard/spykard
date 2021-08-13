@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@master
         with:
-          token: ${{ secrets.METRICS_TOKEN_NEW }}
+          token: ${{ secrets.METRICS_TOKEN }}
           #committer_token: ${{ secrets.GITHUB_TOKEN }}
           committer_branch: metrics_output
 
