@@ -1,4 +1,4 @@
-name: Generate Metrics
+name: Generate Metrics Alternative
 on:
   # Schedule updates (every three days)
   # schedule: [{cron: "0 0 */3 * *"}]
