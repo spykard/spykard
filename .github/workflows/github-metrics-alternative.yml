@@ -1,7 +1,7 @@
 name: Generate Metrics Alternative
 on:
   # Schedule updates (every three days)
-  # schedule: [{cron: "0 0 */3 * *"}]
+  # schedule: [{cron: "0 */72 * * *"}]
   # Lines below let you run workflow manually and on each commit (optional)
   workflow_dispatch:
   #push: {branches: ["master", "main"]}
