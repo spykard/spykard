@@ -4,7 +4,7 @@
 
 Software engineer with 7 years of programming experience, 2 of them professionally, specializing in backend development, data science, and computer hacking. Linux enthusiast who loves programming on his free time and enjoys customizing all of the development environment. Interested in devising a better problem-solving method for challenging tasks, and learning new technologies and tools if the need arises.
 
----------
+---
 
 <!-- ![Spykard's GitHub stats 1](https://github-readme-stats.vercel.app/api?username=spykard&hide=issues&count_private=true&show_icons=true&include_all_commits=true) -->
 
