@@ -3,7 +3,7 @@ on:
   # push:
   #   branches: [main]
   schedule: 
-    - cron: "0 */72 * * *"
+    - cron: "38 4 */3 * *"
   workflow_dispatch: # enabled
 
 jobs:
