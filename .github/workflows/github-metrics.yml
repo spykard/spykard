@@ -33,12 +33,12 @@ jobs:
           
           # plugin_discussions: yes
 
-          plugin_languages: yes
-          plugin_languages_details: percentage, lines
-          plugin_languages_sections: recently-used
+          # plugin_languages: yes
+          # plugin_languages_details: percentage, lines
+          # plugin_languages_sections: recently-used
           # plugin_languages_colors: "less:#261f7a"
           # plugin_languages_aliases: "less:NovaSheets"
-          plugin_languages_indepth: yes
+          # plugin_languages_indepth: yes
 
           # plugin_gists: yes
 
