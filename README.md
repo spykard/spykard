@@ -12,9 +12,10 @@
 
 <p align="center">
     <i>Some of my Public Repositories</i><br>
-    <a href="https://github.com/spykard/popularplaces-app" target="_blank">Full Stack</a><br>
-    <a href="https://github.com/spykard/Classification-HMMs" target="_blank">Applied Mathematics</a><br>
-    <a href="https://github.com/spykard/tiktok-autoclaimer" target="_blank">Hacking</a><br>
+    <a href="https://github.com/spykard/popularplaces-app" target="_blank">Full Stack Web System</a><br>
+    <a href="https://github.com/spykard/Classification-HMMs" target="_blank">State-of-the-Art Applied Mathematics</a><br>
+    <a href="https://github.com/spykard/tiktok-autoclaimer" target="_blank">Hacking</a> and 
+    <a href="https://github.com/spykard/instagram-autoclaimer" target="_blank">Slashing</a><br>
     <a href="https://github.com/spykard/weather-grib" target="_blank">or some good ol' C++</a><br>
 </p>
 
