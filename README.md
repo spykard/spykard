@@ -6,7 +6,17 @@
     </p>
 </a>
 
-Software engineer with 8 years of programming experience, 3 of them professionally, specializing in backend development, data science, and computer hacking. Linux enthusiast who loves programming on his free time and enjoys customizing all of the development environment. Interested in devising a better problem-solving method for challenging tasks, staying up to date with modern technologies and learning new frameworks and tools if the need arises.
+<p align="center">
+    Software Engineer
+</p>
+
+<p align="center">
+    <i>Some of my Public Repositories</i><br>
+    <a href="https://github.com/spykard/popularplaces-app" target="_blank">Full Stack</a><br>
+    <a href="https://github.com/spykard/Classification-HMMs" target="_blank">Applied Mathematics</a><br>
+    <a href="https://github.com/spykard/tiktok-autoclaimer" target="_blank">Hacking</a><br>
+    <a href="https://github.com/spykard/weather-grib" target="_blank">or some good ol' C++</a><br>
+</p>
 
 ---
 
