@@ -16,7 +16,7 @@
     <a href="https://github.com/spykard/Classification-HMMs">State-of-the-Art Applied Mathematics</a><br>
     <a href="https://github.com/spykard/tiktok-autoclaimer">Hacking</a> and 
     <a href="https://github.com/spykard/instagram-autoclaimer">Slashing</a><br>
-    <a href="https://github.com/spykard/weather-grib">or some good ol' C++</a><br>
+    or <a href="https://github.com/spykard/weather-grib">some good ol' C++11</a><br>
 </p>
 
 ---
