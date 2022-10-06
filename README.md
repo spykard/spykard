@@ -21,6 +21,12 @@
 
 ---
 
+<a href="https://www.linkedin.com/in/kardakis/">
+    <p align="center">
+        <img src="images/Header.png" alt="Header">
+    </p>
+</a>
+
 <!-- ![Spykard's GitHub stats 1](https://github-readme-stats.vercel.app/api?username=spykard&hide=issues&count_private=true&show_icons=true&include_all_commits=true) -->
 
 ![Spykard's GitHub stats 1](https://github.com/spykard/spykard/blob/stats_output/generated/overview.svg) ![Spykard's GitHub stats 2](https://github.com/spykard/spykard/blob/stats_output/generated/languages.svg)
