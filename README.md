@@ -12,7 +12,7 @@
 
 <p align="center">
     <i>Some of my Public Repositories</i><br>
-    <a href="https://github.com/spykard/popularplaces-app">Traffic Geocoding Web System</a><br>
+    <a href="https://github.com/spykard/popularplaces-app">Traffic Geocoding WebApp</a><br>
     <a href="https://github.com/spykard/Classification-HMMs">State-of-the-Art Applied Mathematics</a><br>
     <a href="https://github.com/spykard/tiktok-autoclaimer">Hacking</a> and 
     <a href="https://github.com/spykard/instagram-autoclaimer">Slashing</a><br>
