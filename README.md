@@ -7,10 +7,6 @@
 </a>
 
 <p align="center">
-    Software Engineer
-</p>
-
-<p align="center">
     <i>Some of my Public Repositories</i><br>
     <a href="https://github.com/spykard/popularplaces-app">Traffic Geocoding WebApp</a><br>
     <a href="https://github.com/spykard/Classification-HMMs">State-of-the-Art Applied Mathematics</a><br>
@@ -29,9 +25,15 @@
 
 <!-- ![Spykard's GitHub stats 1](https://github-readme-stats.vercel.app/api?username=spykard&hide=issues&count_private=true&show_icons=true&include_all_commits=true) -->
 
-![Spykard's GitHub stats 1](https://github.com/spykard/spykard/blob/stats_output/generated/overview.svg) ![Spykard's GitHub stats 2](https://github.com/spykard/spykard/blob/stats_output/generated/languages.svg)
+<a href="https://www.linkedin.com/in/kardakis/">
+    <p align="center">
+        <img src="https://github.com/spykard/spykard/blob/stats_output/generated/overview.svg" />
+    </p>
+</a>
 
-![Spykard's GitHub stats 3](https://github.com/spykard/spykard/blob/metrics_output/github-metrics.svg)
+<!-- ![Spykard's GitHub stats 2](https://github.com/spykard/spykard/blob/stats_output/generated/languages.svg) -->
+
+<!-- ![Spykard's GitHub stats 3](https://github.com/spykard/spykard/blob/metrics_output/github-metrics.svg) -->
 
 <!--
 **spykard/spykard** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
