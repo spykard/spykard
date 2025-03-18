@@ -2,7 +2,7 @@
 
 <a href="https://www.linkedin.com/in/kardakis/">
     <p align="center">
-        <img src="https://img.shields.io/badge/-Spyridon%20Kardakis-blue?style=flat&logo=Linkedin&logoColor=white&logoWidth=20&link=https://www.linkedin.com/in/kardakis/" alt="LinkedIn">
+        <img src="https://img.shields.io/badge/-Spyros%20Kardakis-blue?style=flat&logo=Linkedin&logoColor=white&logoWidth=20&link=https://www.linkedin.com/in/kardakis/" alt="LinkedIn">
     </p>
 </a>
 
