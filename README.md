@@ -1,10 +1,10 @@
 ## <p align=center>Hi there 👋<p>
 
-<p style="text-align: center;">
+<div style="text-align: center;">
     <a href="https://www.linkedin.com/in/kardakis/">
         <img src="https://img.shields.io/badge/-Spyros%20Kardakis-blue?style=flat&logo=Linkedin&logoColor=white&logoWidth=20&link=https://www.linkedin.com/in/kardakis/" alt="LinkedIn">
     </a>    
-</p>
+</div>
 
 
 <!-- <p align="center">
