@@ -1,0 +1,14 @@
+.github/workflows/github-stats.yml
+  h_4499e3a81b13e8 55
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "40caf0940e8ac5407838c28c7c6d5493c109898a",
+  "prompts": {},
+  "humans": {
+    "h_4499e3a81b13e8": {
+      "author": "Spyros Kardakis <spyridon.kardakis@e-food.gr>"
+    }
+  }
+}
