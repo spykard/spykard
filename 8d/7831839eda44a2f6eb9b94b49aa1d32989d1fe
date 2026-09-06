@@ -1,0 +1,12 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "8d7831839eda44a2f6eb9b94b49aa1d32989d1fe",
+  "prompts": {},
+  "humans": {
+    "h_4499e3a81b13e8": {
+      "author": "Spyros Kardakis <spyridon.kardakis@e-food.gr>"
+    }
+  }
+}
