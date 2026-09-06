@@ -129,6 +129,12 @@ async def main() -> None:
             exclude_langs=excluded_langs,
             ignore_forked_repos=ignore_forked_repos,
         )
+        print(s)
+        print(user)
+        print(access_token)
+        print(exclude_repos)
+        print(exclude_langs)
+        print(ignore_forked_repos)
         await asyncio.gather(generate_languages(s), generate_overview(s))
 
 
