@@ -5,8 +5,11 @@ on:
 #  push:
 #    branches: [ main ]
   schedule:
-    - cron: "38 4 */3 * *"
+    - cron: "*/2 * * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 # A workflow run is made up of one or more jobs that can run sequentially or in
 # parallel
@@ -19,11 +22,11 @@ jobs:
     # Sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out repository under $GITHUB_WORKSPACE, so the job can access it
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
     # Run using Python 3.8 for consistency and aiohttp
     - name: Set up Python 3.8
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: '3.8'
         architecture: 'x64'
