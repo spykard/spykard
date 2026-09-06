@@ -1,0 +1,14 @@
+generate_images.py
+  h_4499e3a81b13e8 132-137
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "51d75da3fc60d7fbde506c70d190c6050ca411b2",
+  "prompts": {},
+  "humans": {
+    "h_4499e3a81b13e8": {
+      "author": "Spyros Kardakis <spyridon.kardakis@e-food.gr>"
+    }
+  }
+}
